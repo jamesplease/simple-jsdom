@@ -4,7 +4,7 @@
   "description": "A simple JSDom configuration that I use when testing most of my libraries.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/jmeas/simple-jsdom#readme",
   "dependencies": {
     "jsdom": "^3.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
   }
 }

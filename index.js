@@ -1,3 +1,5 @@
+'use strict';
+
 global.jsdom = require('jsdom').jsdom;
 
 // Set up our document, window, and navigator
