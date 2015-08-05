@@ -1,11 +1,25 @@
 'use strict';
 
-global.jsdom = require('jsdom').jsdom;
-
-// Set up our document, window, and navigator
-global.document = jsdom('<html><head></head><body></body></html>');
-global.window = global.document.parentWindow;
-global.navigator = window.navigator = {
+var jsdom = require('jsdom').jsdom;
+var document = jsdom('<html><head></head><body></body></html>');
+var window = document.parentWindow;
+var navigator = window.navigator = {
   userAgent: 'NodeJS JSDom',
   appVersion: ''
+};
+
+// References to the objects are available under `globals`
+exports.globals = {
+  jsdom: jsdom,
+  document: document,
+  window: window,
+  navigator: navigator
+};
+
+// Run this method to modify the global namespace
+exports.install = function() {
+  global.jsdom = jsdom;
+  global.document = document;
+  global.window = window;
+  global.navigator = navigator;
 };
