@@ -3,13 +3,28 @@
 
 A simple JSDom configuration for testing libraries.
 
+### Installation
+
+The easiest way to get simple-jsdom is through npm.
+
+`npm i simple-jsdom`
+
+### Getting Started
+
+To modify the global namespace, run:
+
+`require('simple-jsdom').install();`
+
 ### Motivation
 
-JSDom has a lot of features, but I use a very small subset of its API. Most of the time,
-I simply want my tests for client-side JavaScript to not explode when I run them in the
-Node environment.
+Most of the time that I use JSDom, I only want to make it so that my client side tests
+work in a Node environment without blowing up. I'm less interested in thinking
+about how JSDom works.
 
-Require this configuration and your tests should Just Work©.
+I found myself copying and pasting the same code between projects, so I abstracted into
+this bare bones JSDom configuration. Require this in and your tests should Just Work©.
+
+For instance, you should be able to use most (all?) of the jQuery API after you've included this.
 
 ### Versioning
 
@@ -17,13 +32,14 @@ This library intentionally depends on an old version of JSDom, v3.0, as this is 
 of JSDom to support Node. Newer versions are for io.js only. Most developers use Node,
 so it doesn't make sense to upgrade.
 
-### Features
+### API
 
-The following global variables are created:
+This module returns two things: a `globals` object, which returns the globals created by JSDom,
+and an `install` method, which attaches those things to the global namespace.
+
+The four objects are:
 
 - `document`
 - `window`
 - `navigator`
-
-These objects should have the methods and properties expected for most basic client-side
-operations.
+- [`jsdom`](https://github.com/tmpvar/jsdom#for-the-hardcore-jsdomjsdom)
