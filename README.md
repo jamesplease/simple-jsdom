@@ -1,7 +1,7 @@
 # simple-jsdom
 [![Travis build status](http://img.shields.io/travis/jmeas/simple-jsdom.svg?style=flat)](https://travis-ci.org/jmeas/simple-jsdom)
 
-A simple JSDom configuration that I use when testing many of my libraries.
+A simple JSDom configuration for testing libraries.
 
 ### Motivation
 

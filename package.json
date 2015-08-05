@@ -1,7 +1,7 @@
 {
   "name": "simple-jsdom",
   "version": "0.0.1",
-  "description": "A simple JSDom configuration that I use when testing most of my libraries.",
+  "description": "A simple JSDom configuration for testing libraries.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
