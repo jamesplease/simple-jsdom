@@ -24,7 +24,7 @@ about how JSDom works.
 I found myself copying and pasting the same code between projects, so I abstracted into
 this bare bones JSDom configuration. Require this in and your tests should Just Work©.
 
-You should, for instance, be able to use most (all?) of the jQuery API after you've included this.
+For instance, you should be able to use most (all?) of the jQuery API after you've included this.
 
 ### Versioning
 
@@ -35,7 +35,7 @@ so it doesn't make sense to upgrade.
 ### API
 
 This module returns two things: a `globals` object, which returns the globals created by JSDom,
-and an `install` method, which attaches those to the global namespace.
+and an `install` method, which attaches those things to the global namespace.
 
 The four objects are:
 
