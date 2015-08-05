@@ -1,0 +1,30 @@
+{
+  "name": "simple-jsdom",
+  "version": "0.0.1",
+  "description": "A simple JSDom configuration for testing libraries.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmeas/simple-jsdom.git"
+  },
+  "keywords": [
+    "jsdom",
+    "test",
+    "boilerplate"
+  ],
+  "author": "Jmeas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmeas/simple-jsdom/issues"
+  },
+  "homepage": "https://github.com/jmeas/simple-jsdom#readme",
+  "dependencies": {
+    "jsdom": "^3.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
