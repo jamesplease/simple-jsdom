@@ -28,9 +28,7 @@ For instance, you should be able to use most (all?) of the jQuery API after you'
 
 ### Versioning
 
-This library intentionally depends on an old version of JSDom, v3.0, as this is the last version
-of JSDom to support Node. Newer versions are for io.js only. Most developers use Node,
-so it doesn't make sense to upgrade.
+This library requires Node v4+ and JSDom v7+.
 
 ### API
 
