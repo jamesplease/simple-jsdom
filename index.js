@@ -2,7 +2,7 @@
 
 var jsdom = require('jsdom').jsdom;
 var document = jsdom('<html><head></head><body></body></html>');
-var window = document.parentWindow;
+var window = document.defaultView;
 var navigator = window.navigator = {
   userAgent: 'NodeJS JSDom',
   appVersion: ''
