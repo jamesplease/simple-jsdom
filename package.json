@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/jmeas/simple-jsdom#readme",
   "dependencies": {
-    "jsdom": "^7.0.2"
+    "jsdom": "^8.0.0"
   },
   "devDependencies": {
     "mocha": "^2.3.3"
