@@ -1,3 +1,7 @@
+### [v2.0.0](https://github.com/jmeas/simple-jsdom/releases/v2.0.0)
+
+- Supports JSDom 8.x
+
 ### [v1.0.0](https://github.com/jmeas/simple-jsdom/releases/v1.0.0)
 
 - Supports Node v4 and the latest JSDom

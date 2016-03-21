@@ -28,7 +28,7 @@ For instance, you should be able to use most (all?) of the jQuery API after you'
 
 ### Versioning
 
-This library requires Node v4+ and JSDom v7+.
+This library requires Node v4+ and JSDom v8+.
 
 ### API
 

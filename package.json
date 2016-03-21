@@ -1,6 +1,6 @@
 {
   "name": "simple-jsdom",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple JSDom configuration for testing libraries.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/jmeas/simple-jsdom#readme",
   "dependencies": {
-    "jsdom": "^7.0.2"
+    "jsdom": "^8.0.0"
   },
   "devDependencies": {
     "mocha": "^2.3.3"
