@@ -1,3 +1,7 @@
+### [3.0.0](https://github.com/jmeas/simple-jsdom/releases/3.0.0)
+
+- JSDom is now a peerDependency
+
 ### [2.0.0](https://github.com/jmeas/simple-jsdom/releases/2.0.0)
 
 - Supports JSDom 8.x
