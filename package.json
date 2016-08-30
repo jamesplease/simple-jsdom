@@ -21,10 +21,11 @@
     "url": "https://github.com/jmeas/simple-jsdom/issues"
   },
   "homepage": "https://github.com/jmeas/simple-jsdom#readme",
-  "dependencies": {
-    "jsdom": "^8.0.0"
+  "peerDependencies": {
+    "jsdom": ">=8.0.0"
   },
   "devDependencies": {
+    "jsdom": "^9.4.2",
     "mocha": "^2.3.3"
   },
   "engine": "node >= 4.0.0"
