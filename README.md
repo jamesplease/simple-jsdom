@@ -7,7 +7,11 @@ A simple JSDom configuration for testing libraries.
 
 The easiest way to get simple-jsdom is through npm.
 
-`npm i simple-jsdom`
+`npm i simple-jsdom --save-dev`
+
+You'll also need to install the version of JSDom that you'd like to use.
+
+`npm i jsdom --save-dev`
 
 ### Getting Started
 
